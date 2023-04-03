@@ -34,7 +34,7 @@ public class LinguagemController {
 
     @GetMapping("/linguagens")
     public List<Linguagem> obterLinguagens() {
-        List<Linguagem> linguagens = repository.findAll();
+        List<Linguagem> linguagens = repository.findByOrderByRanking();
         return linguagens;
     }
 
