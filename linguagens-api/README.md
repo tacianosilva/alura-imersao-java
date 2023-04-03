@@ -25,7 +25,22 @@ docker run -it --rm \
     mongo-express
 ```
 
+
+
+Put these configuration in your application properties file:
+
+spring.data.mongodb.host= YOUR_HOST like 192.168.x.x
+spring.data.mongodb.port=27017
+spring.data.mongodb.authentication-database=admin
+spring.data.mongodb.username=admin
+spring.data.mongodb.password=PASSWORD
+spring.data.mongodb.database=DB_NAME
+
+
+
 ## Links
+
+### Aula 4
 
 Primeira aula do curso [“Maven: gerenciamento de dependências e build de aplicações Java”](https://www.alura.com.br/conteudo/maven-gerenciamento-dependencias-build-aplicacoes-java) da Alura.
 
@@ -38,3 +53,14 @@ Hipters.Tube [“O que é SQL e NoSQL?”](https://www.youtube.com/watch?v=aure5
 Podcast [Hipsters.Tech sobre MongoDB](https://www.hipsters.tech/mongodb-hipsters-ponto-tech-305/).
 
 Artigo da Alura [“Spring: Conheça esse framework Java”](https://www.alura.com.br/artigos/spring-conheca-esse-framework-java).
+
+
+### Aula 5
+
+[Dev em T: especialista x generalista](https://www.alura.com.br/dev-em-t).
+
+Site do [Fly.io](https://fly.io/), o PaaS (plataforma como serviço) utilizado nesta segunda edição da Imersão Java. Requer cartão de crédito. É fundamental entender a precificação e as quotas gratuitas do Fly.io.
+
+Documentação sobre a [Oracle Cloud](https://docs.oracle.com/pt-br/iaas/Content/home.htm).
+
+Artigo: [Como elaborar um bom arquivo Readme para os seus projetos](https://www.alura.com.br/artigos/escrever-bom-readme).
